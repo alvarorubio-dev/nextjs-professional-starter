@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js >= 20
+- npm >= 10
+
+### Installation
 
 ```bash
+git clone https://github.com/alvarorubio-dev/nextjs-professional-starter.git
+cd nextjs-professional-starter
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Available Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run dev          # Start development server with Turbopack
+npm run build        # Build for production
+npm run start        # Start production server
+npm run lint         # Run ESLint
+npm run lint:fix     # Run ESLint with auto-fix
+npm run typecheck    # Run TypeScript type checking
+npm run format       # Format all files with Prettier
+npm run format:check # Check formatting without writing
+npm run test         # Run Playwright E2E tests
+npm run test:ui      # Run Playwright with interactive UI
+npm run test:report  # Open last HTML test report
+```
 
-## Learn More
+## Use This Template
 
-To learn more about Next.js, take a look at the following resources:
+This repository is configured as a GitHub template.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Click **Use this template** → **Create a new repository**
+2. Name your project
+3. Clone the new repository
+4. Run `npm install` and start building
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Roadmap
 
-## Deploy on Vercel
+- [x] Project configuration
+- [x] Folder structure
+- [x] UI components
+- [x] SEO setup
+- [x] Form validation
+- [x] E2E tests
+- [x] CI/CD pipeline
+- [x] Vercel deployment
+- [ ] Supabase integration
+- [ ] Authentication
+- [ ] Dark mode
+- [ ] Internationalization (i18n)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT — feel free to use this template for personal and commercial projects.
